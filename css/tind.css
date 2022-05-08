@@ -1,0 +1,102 @@
+body{
+ font-family: 'Chewy', cursive;
+}
+.container-fluid{
+    padding: 0% 10% !important;
+}
+#cta{
+    background-color: #ff7b7b;
+    padding-top: 10%!important;
+    text-align: center;
+}
+
+#footer{
+    padding-top: 123px!important;
+    font-family: 'Chewy', cursive;
+}
+.navbar-brand {
+    font-family: 'Chewy', cursive;
+    font-weight: bold;
+    font-size: 40px !important;
+    color: dodgerblue;
+}
+.navbar-expand-lg {
+    
+    /* add important padding in top */
+    padding: 40px 20px !important;
+}
+.navbar-toggler{
+    color: gold;
+}
+
+
+
+#pricing{
+    text-align: center;
+    background-color: lemonchiffon;
+    
+}
+.ptit{
+    padding-top:40px !important ;
+    font-family: 'Anybody', cursive;
+}
+#press{
+    text-align: center;
+}
+.press{
+    width: 20%;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+#testimonials{
+background-color: antiquewhite;
+padding-left: 5%;
+/* make the image round */
+
+}
+#title{
+    background-color: pink;
+}
+#title h1{
+    color: red;
+    font-family: "Pacifico", cursive;
+}
+.testicles{
+    margin: auto 0;
+    
+}
+
+.title-image{
+    width: 55%;
+}
+.testimonial{
+    width: 40%;
+    margin-left: 35%;
+    border-radius: 50%;
+}
+
+
+.freak{
+ font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+.feature{
+    margin: 60px 40px;
+}
+/* 
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+} */
+h2{
+    font-size: 1.6rem!important;
+
+}
+.row{
+    padding: 3% 4%!important;
+}

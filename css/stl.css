@@ -1,0 +1,194 @@
+/* the image left and right thigy.... */
+/* ######################################### */
+#one{
+    float: left;
+}
+#two{
+    float: right;
+}
+#thre{
+    
+    float: left;
+}
+#myPic{
+
+    width: 9%;
+    padding-top: 18px;
+}
+/* ######################################### */
+
+a{
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    color: #029c61;
+    font-weight: bold;
+    margin: 30px 30px;
+    
+}
+a:hover{
+    color: white;
+}
+
+ 
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px;
+
+}
+#bio{
+    width: 91%;
+    margin: 4px auto 0;
+    line-height:2;
+}
+#btm-cld{
+    position: absolute;
+    height: 120px;
+    width: 240px;
+    top: 20%;
+    left: 67%;
+}
+.copyright{
+    color: white;
+    font-size: 9    0%;
+    margin-top:30px;
+
+}
+
+.circle{
+    background: #e0e6f8;
+    border-radius: 71%;
+    color: #fff;
+    height: 7rem;
+    margin: auto auto;
+    width: 7rem;
+    position: relative;
+}
+.code{
+
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    /* transform: translate(-50%, -5tor 0%); */
+    
+  }
+
+.fs_dv{
+    /* margin-top: 0px; */
+    background-color: #a6e5f55d;
+    /* border-width: 7px; */
+    /* margin-bottom: 0px; */
+}
+
+
+
+#ident{
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 110%;
+    color:#45b29a;
+    
+    font-family: 'Kalam', cursive;
+}
+hr{
+    border: dotted;
+    border-bottom: 0;
+    width: 51%;
+    border-width: 11px;
+    color: rgb(212, 207, 207);
+    margin-top: 40px;
+}
+h3{
+    color: #45b29a;
+    font-size: 140%;
+    margin-bottom: -2px;
+    /* text-align: right; */
+}
+
+
+#name{
+    text-align: center;color: #19c5a2;
+    margin: 0 auto 0 ;
+    letter-spacing: 3px;
+    font-size: 390%;
+    font-family: 'Allison', cursive;
+    padding-top: 140px;
+}
+#munt{
+    text-align: center;/* height: 178%; */
+    width: 38%;
+    padding-top: 20px;
+    margin-bottom: -6px;
+    /* position: relative; */
+    /* left: 20%; */
+}
+
+.over_head{
+    color: #02886a;
+    font-size: 170%;
+    margin-bottom: 0;
+    
+}
+p{
+    /* margin: 330px auto 23px auto; */
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 110%;
+    color:#000000;
+    letter-spacing: 1px;
+    margin: 12px auto;
+    font-family: 'Varela Round', sans-serif;
+}
+
+tr{
+    margin: 0 auto 0 auto;
+    /* top right bottom left */
+}
+
+.skill-row{width: 70%;margin: 37px auto 50px;text-align: left;line-height: 1.1;}
+
+#top-cld{
+    position: absolute;
+    display: block;
+    right: 70%;
+    height: 50px;
+    width: 110px;
+}
+.skil_head{
+    padding: 0 20%;
+}
+
+#btm-cld{
+    right: 7%;
+    height: 5%;
+    width: 12%;
+}
+
+
+/* HOVER BUTTON.,.............................                     */
+.btn {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px;
+    background-color: #39CFAE;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: #00FFC7;
+    border: solid #337FED 0;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+ }
