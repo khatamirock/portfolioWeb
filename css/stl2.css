@@ -80,14 +80,15 @@ width: 12%;}
 
 .footer{
     /* position: absolute; */
-    bottom: 0;
-    width: 100%;
+    /* bottom: 0; */
+    /* width: 100%; */
     height: 100px;
     background-color: #66BFBF;
     color: white;
     text-align: center;
     padding: 10px;
-height: 100%;}
+    height: 100%;
+    }
 
 
 .hello{
@@ -102,14 +103,14 @@ height: 100%;}
 
 .icon-col{
      color: #66BFBF;
-     margin-left: 50px;
+     
      text-shadow: -2px 0 rgb(55, 55, 55), 0 1px rgb(57, 57, 57), 1px 0 rgb(55, 55, 55), 0 -1px rgb(35, 35, 35);
 }
 
 
 #munt{
 
-    width: 38%;
+    width: 70%;
     padding-top: 32px;
 
 }
@@ -153,7 +154,7 @@ color: #333C83;}
 
 
 #name{
-    padding-top: 20% !important;
+    padding-top: 16% !important;
 /* font-weight: 900; */color: whitesmoke;
 font-family: 'Allison', cursive;
 font-size: 625%;
@@ -167,7 +168,7 @@ color: azure;width: 100%;}
     position: absolute;
 left: 14%;
 
-bottom: 68%;width: 16%;
+bottom: 50%;width: 11%;
 }
 
 

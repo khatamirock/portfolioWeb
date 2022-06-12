@@ -1,0 +1,162 @@
+@import 'screens';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin addPadd($padd) {
+    padding: $padd;
+
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.skill2 {
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    align-items: center;
+
+    .left {
+        // @include addPadd(10%);
+
+
+
+        img {
+            width: 80%;
+            margin-left: 10%;
+
+        }
+    }
+
+    .right {
+        @include addPadd(10%);
+
+
+        .skill-heading {
+            font-family: 'Archivo Black', sans-serif;
+        }
+
+        ul {
+
+
+            li {
+                display: inline-block;
+                list-style: none;
+                padding: 20px 10px;
+
+                p {
+                    padding: 5px 0;
+                }
+            }
+        }
+    }
+
+    // screen sizing...........>>>>>>>>>>>>>>>>
+
+    @include tablet {
+        grid-template-columns: 1fr;
+
+        .left {
+            display: flex;
+            justify-content: center;
+
+            img {
+                padding-top: 10%;
+                width: 60%;
+
+            }
+        }
+
+        .right {
+
+
+            .skill-heading {
+                font-size: 2.5rem;
+            }
+
+            ul {
+                justify-content: center;
+
+                li {
+                    //          @include addPadd(10%);
+                    padding: 40px 10px;
+                }
+            }
+        }
+
+    }
+}
+
+.education {
+    background-color: royalblue;
+    padding: 4%;
+
+    h1 {
+        padding: 20px 0;
+    }
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+
+    .card {
+        width: 70% !important;
+        padding: 2% 0;
+        margin: 20px 0;
+
+        img {
+
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    @include tablet {
+        grid-template-columns: 1fr;
+
+        .card {
+            width: 80% !important;
+        }
+    }
+
+
+
+}
+
+.book-list {
+    padding: 0 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem 1rem;
+
+    @include intermediate {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @include tablet {
+        .card {
+            width: 100% !important;
+        }
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    @include mobile {
+        grid-template-columns: 1fr;
+    }
+}
